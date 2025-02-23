@@ -38,7 +38,7 @@ Before diving into the complexities of `lost`, we set up a proper environment fo
 > There are many tools available online or on GitHub <br>for example: [lua-beautifier](https://goonlinetools.com/lua-beautifier/).
 
 
-Now when making sure that the script still work we will notice that executing the beautified version doesn't give us the expected output, at this poin we need to figure out wheter is the beautified output problem or script integrity check...
+Now when making sure that the script still work we will notice that executing the beautified version doesn't give us the expected output, at this point we need to figure out wheter is the beautified output problem or script integrity check...
 
 I tried a simple modification by extending the second line (for example, to `200`). Running the script still produced the same behavior, confirming that an integrity check is indeed in place.
 
