@@ -466,7 +466,7 @@ Final flag is `TRX{600dby3_d3@r_0p3n50urc3_aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L1RZc
 
 
 # Molly Revenge
-Due to Molly dynamic dumping approach, Molly Revenge presents a hardened version of Molly, incorporating anti-debug checks, an new encryption/decryption routine, fewer unlocked pages limit, and rigorous flag integrity verification.
+Due to Molly dynamic dumping approach, Molly Revenge presents a hardened version of Molly, incorporating anti-debug checks, a new encryption/decryption routine, fewer unlocked pages limit, and rigorous flag integrity verification.
 
 ## Molly Revenge Decryptor
 ```py
