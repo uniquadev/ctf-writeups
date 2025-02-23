@@ -6,8 +6,6 @@
 ## Molly Overview
 We are presented with two PE x86_64 binaries: `molly.exe` and `molly_dll.dll` 
 
-This challenge involves two `PE x86_64` binaries: `molly.exe` and `molly_dll.dll`.
-
 Initially, disassembling `molly.exe` reveals a multitude of unusual instructions. Furthermore, the high entropy in the `.text` section suggests that the code is not standard executable code.
 
 ![static_first_view](img/static_first_view.png)
