@@ -705,7 +705,7 @@ c = l[e]
 -- flag table must be on stack with a metatable
 for i, v in next, S do
     if type(v) == 'table' and getmetatable(v) then
-        print("---------TALBE_WITH_METAMETHODS---------")
+        print("---------TABLE_WITH_METAMETHODS---------")
         tbl_foreach(v, print) -- we can reconstruct part3 easily 
         print("----------------------------------------")
         -- m4573r3d
@@ -718,7 +718,7 @@ if (S[c.c] ~= S[c.N]) then
 
 From output:
 ```
----------TALBE_WITH_METAMETHODS---------
+---------TABLE_WITH_METAMETHODS---------
 1       57
 2       m4
 3       3d
